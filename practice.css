@@ -1,0 +1,29 @@
+
+.div1{
+    background-color:rgb(48, 6, 69);
+    width: 50%;
+    float: left;
+}
+.heading{
+    font-size: 58px;
+    color: white;
+    margin-top: 38px;
+}
+.paragraph{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.nav{
+    display: inline-block;
+}
+.div2{
+    width: 50%;
+    float: right;
+}
+.nav{
+    display: flex;
+}
+.mn{
+    margin:auto;
+}
+
