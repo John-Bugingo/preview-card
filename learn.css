@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foarma{
+    color: white;
+    width: 33%;
+    background-color: rgb(237, 170, 34);
+}
+.foarmb{
+    color: white;
+    float: float;
+    width: 33%;
+    background-color: rgb(40, 160, 203);
+}
+.foarmc{
+    width: 34%;
+    float: left;
+    color: white;
+    background-color: rgb(11, 31, 54);
+}
+
+.div1{
+    background-color:rgb(48, 6, 69);
+    width: 50%;
+    float: left;
+}
+.heading{
+    font-size: 58px;
+    color: white;
+    margin-top: 38px;
+}
+
+#form-page{
+    background-color: rgb(63, 44, 134);
+}
+
+td{
+    color: white;
+    font-size: 18px;
+}
+
+.paragraph{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.nav{
+    display: inline-block;
+}
+.div2{
+    width: 50%;
+    float: right;
+}
+.nav{
+    display: flex;
+}
+.mn{
+    margin:auto;
+}
+
+
+/* @media (min-width:768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+/* CSS for smaller screens 
+@media (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+} */
+
+nav{
+    width: 100%;
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+/* .form-nave a{
+    color: aliceblue;
+} */
+/* nav a.test-a1{
+    background-color: blue;
+    margin: 5px 10px 40px 20px;
+} */
+
+
