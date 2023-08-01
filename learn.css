@@ -14,7 +14,7 @@
 }
 .foarmc{
 
-    background-color: rgb(11, 31, 54);
+    background-color: rgb(3, 78, 68);
 }
 .two-column{
     display: flex;
@@ -65,16 +65,22 @@ td{
         padding: 10px;
     }
 } */
+.container{
+    margin: 10px;
+
+}
 
 nav{
     width: 100%;
     display: flex;
+    background-color: black;
 }
 
 
 nav a{
     text-decoration: none;
-    margin: 10px 5px;
+    margin: 5px 15px;
+    color: white;
 
 }
 nav a:hover{
@@ -86,18 +92,35 @@ nav a:hover{
 .three-column{
     display: flex;
     color: white;
-    width: 1000px;
+    width: 100%;
     margin: auto;
     height: 400px;
 }
 .three-column div{
-   width: 250px;
+   width: 100%;
    
 }
 .three-column div h1{
-   width: 100%;
+   width: auto;
    text-align: center;
+   color: white;
+}
+.three-column div p{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    text-align: center;
 
+}
+.three-column div a{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 40%;
+    }
+.three-column div img{
+    margin-left: 35%;
 }
 /* .form-nave a{
     color: aliceblue;
