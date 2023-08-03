@@ -16,16 +16,39 @@
 
     background-color: rgb(3, 78, 68);
 }
-.two-column{
+.change-colOne{
+    color: blue;
+}
+.change-colTwo{
+    color: orange;
+}
+.change-colThree{
+    color: red;
+}
+.change-colFour{
+    color: green;
+}
+.change-colSix{
+    color: cyan;
+}
+.change-colFive{
+    color: rgb(203, 40, 94)
+}
+.change-colSeven{
+    color: white
+}
+.two-column, .div2{
     display: flex;
+    width: 100%;
 }
 .div1{
     background-color:rgb(48, 6, 69);
 }
+
 .heading{
     font-size: 58px;
     color: white;
-    margin-top: 38px;
+    margin: 5px 20px;
 }
 
 #form-page{
@@ -40,24 +63,17 @@ td{
 .paragraph{
     color: whitesmoke;
     font-size: 30px;
+    height: auto;
+    margin: 0px 20px;
 }
 .nav{
     display: inline-block;
-}
-.nav{
     display: flex;
 }
 .mn{
     margin:auto;
 }
 
-
-/* @media (min-width:768px) {
-    .container {
-        max-width: 768px;
-        margin: 0 auto;
-    }
-}
 
 /* CSS for smaller screens 
 @media (max-width: 767px) {
@@ -67,25 +83,28 @@ td{
 } */
 .container{
     margin: 10px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav{
     width: 100%;
     display: flex;
     background-color: black;
+    justify-content: center;
 }
-
 
 nav a{
+    display: flex;
     text-decoration: none;
     margin: 5px 15px;
-    color: white;
-
+    font-size: 20px;
 }
+
 nav a:hover{
-   color: chocolate;
-   font-size: large;
+   color: white;
+   font-size: 20px;
    text-transform: capitalize;
 
 }
@@ -97,9 +116,9 @@ nav a:hover{
     height: 400px;
 }
 .three-column div{
-   width: 100%;
-   
+   width: 100%;   
 }
+
 .three-column div h1{
    width: auto;
    text-align: center;
@@ -107,8 +126,8 @@ nav a:hover{
 }
 .three-column div p{
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 90px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     text-align: center;
 
 }
@@ -122,6 +141,332 @@ nav a:hover{
 .three-column div img{
     margin-left: 35%;
 }
+
+.back{
+    border-radius: 8px;
+    background-color: black;
+    color: white; 
+    text-decoration: none; 
+    padding:3px 15px; 
+    font-size: 25px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+#fm{
+    background-color: darkgray;
+    border-radius: 8px;
+    width: 30rem;
+    height: 30rem;
+    margin: 100px 0px 50px 400px
+}
+.footer h1{
+    color:black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.input-control{
+    margin: 10px 0px 0px 60px;
+    font-size: 20px;
+}
+.input-control input{
+    width: 50%;
+    height: 4vh;
+    padding: 10px auto 10px 5px;
+    border-radius: 5px;
+
+}
+
+.sign-in{
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 5px 15px;
+    margin-right: 20px;
+
+}
+
+
+.body1{
+    background-image: url(./intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+}
+.container5, .container6{
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+}
+.div11{
+    width: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.h11{
+    font-size: 52px;
+    padding: 0px 80px;
+    color: white;
+}
+.p11{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 11px 80px;
+    color: white;
+    z-index: 16;
+}
+.div12{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+        
+}
+.button12{
+    background-color: rgb(52, 30, 139);
+    color: white;
+    padding: 10px 100px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 100%;
+
+}
+.div13{
+    background-color:white;
+    width: 450px;
+    border-radius: 10px;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div13 form{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    /* margin-top: 30px; */
+    width: 80%;
+}
+.custom{
+    float: right;
+    color: red;
+    display: none;
+}
+/* #firstNameError{
+    display: block;
+} */
+
+.form-control {
+    width: 100%;
+    position: relative;
+    
+}
+.form-control input{
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    /* padding: 5px 85px; */
+    margin-bottom: 5px;
+    border: 1px solid rgba(56, 53, 53, 0.371);
+    padding-left: 11px;
+    font-weight: 700;
+    border
+}
+
+.iMove{
+    top: 25%;
+    /* top: 15px; */
+    position: absolute;
+    right: 11px;
+}
+
+
+.input13{
+    background-color: rgb(9, 185, 29);
+    padding: 10px 103px;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: white;
+    border-color:rgb(9, 235, 28);
+}
+.dc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container6{
+    background-color: rgb(66, 66, 76);
+    width: 480px;
+    height: 100px;
+    position: absolute;
+    top: 320px;
+    border-radius: 18px;
+    
+}
+/* .div-button{
+    background-color: blue;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+} */
+/* .div-button button{
+    margin: 11px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    padding: 7px;
+    border-radius: 6px;
+}
+.div-button button:hover{
+    margin: 11px;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    padding: 7px;
+} */
+
+
+
+
+
+
+.container10{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(222, 26%, 31%)
+
+}
+.calculator{
+    border-radius: 10px;
+    background-color: black;
+    width: 300px;
+    height: 365px;
+    padding: 25px;
+}
+.calculator form .display{
+    display: flex;
+    justify-content: center;
+}
+.calculator form .display input{
+    padding: 5px 25px;
+    text-align: right;
+    flex: 1;
+}
+.calculator form input{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    background: transparent;
+    background-color:cornsilk;
+    
+}
+.he{
+    color: white;
+    font-size: 30px;
+}
+.calculator form .display input{
+    width: 150px;
+    background: transparent;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgb(26, 25, 25), 5px 5px 15px rgb(127, 127, 131);
+
+}
+.calculator form .equal-reset input{
+    width: 105px;
+}
+.calculator form .blue{
+    background-color: hsl(222, 26%, 31%);
+    color: white;
+}
+.calculator form .red{
+    background-color: hsl(0, 79%, 55%);
+    color: white;
+}
+
+/* body h6 .button1{
+    width: 90px;
+    height: 30px;
+    border-radius: 18px;
+    background-color: black;
+    bottom: 8%;
+    position: absolute;
+}
+body .two-button .button2{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+    position: absolute;
+    right: 50%;
+    top: 20%;
+
+} */
+
+
+
+@media screen and (max-width:800px) {
+    .two-column {
+        flex-direction: column-reverse;       
+    }   
+    .three-column, .nav{
+        flex-direction: column; 
+        height: auto;      
+    }   
+    .three-column div{
+       height: 310px;
+    }
+    .heading, .paragraph{
+        font-size: 5vw;
+        margin: 10px 20px;
+    }
+    .container5{
+        flex-direction: column;
+    }
+    .p11{
+        margin-top: 20px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* .div12{
+        position: absolute;
+        top: 405px;
+    } */
+    .div13{
+        height: auto;
+        padding: 20px 0px;
+    }
+    /* .div13 form{
+        margin: auto, 40%;
+        position: absolute;
+    } */
+}
+
+
 /* .form-nave a{
     color: aliceblue;
 } */
@@ -129,5 +474,8 @@ nav a:hover{
     background-color: blue;
     margin: 5px 10px 40px 20px;
 } */
+
+
+
 
 
