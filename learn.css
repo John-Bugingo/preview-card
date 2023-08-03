@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .foarma{
+<<<<<<< HEAD
     color: white;
     width: 33%;
     background-color: rgb(237, 170, 34);
@@ -25,6 +26,25 @@
     background-color:rgb(48, 6, 69);
     width: 50%;
     float: left;
+=======
+
+    background-color: rgb(237, 170, 34);
+}
+.foarmb{
+
+    
+    background-color: rgb(40, 160, 203);
+}
+.foarmc{
+
+    background-color: rgb(3, 78, 68);
+}
+.two-column{
+    display: flex;
+}
+.div1{
+    background-color:rgb(48, 6, 69);
+>>>>>>> af4e709a70e4446d6648b6cf3e7da9a7169a252b
 }
 .heading{
     font-size: 58px;
@@ -48,10 +68,13 @@ td{
 .nav{
     display: inline-block;
 }
+<<<<<<< HEAD
 .div2{
     width: 50%;
     float: right;
 }
+=======
+>>>>>>> af4e709a70e4446d6648b6cf3e7da9a7169a252b
 .nav{
     display: flex;
 }
@@ -73,10 +96,18 @@ td{
         padding: 10px;
     }
 } */
+<<<<<<< HEAD
+=======
+.container{
+    margin: 10px;
+
+}
+>>>>>>> af4e709a70e4446d6648b6cf3e7da9a7169a252b
 
 nav{
     width: 100%;
     display: flex;
+<<<<<<< HEAD
 }
 
 nav a{
@@ -84,6 +115,57 @@ nav a{
     margin: 10px 5px;
 }
 
+=======
+    background-color: black;
+}
+
+
+nav a{
+    text-decoration: none;
+    margin: 5px 15px;
+    color: white;
+
+}
+nav a:hover{
+   color: chocolate;
+   font-size: large;
+   text-transform: capitalize;
+
+}
+.three-column{
+    display: flex;
+    color: white;
+    width: 100%;
+    margin: auto;
+    height: 400px;
+}
+.three-column div{
+   width: 100%;
+   
+}
+.three-column div h1{
+   width: auto;
+   text-align: center;
+   color: white;
+}
+.three-column div p{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    text-align: center;
+
+}
+.three-column div a{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 40%;
+    }
+.three-column div img{
+    margin-left: 35%;
+}
+>>>>>>> af4e709a70e4446d6648b6cf3e7da9a7169a252b
 /* .form-nave a{
     color: aliceblue;
 } */
