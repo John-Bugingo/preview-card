@@ -1,7 +1,7 @@
 const timeInterval = () => {
-    // console.log("start of the function");
+    console.log("start of the function");
     // const colors = ["blue", "green","orange", "red"];
-    const classes = ["change-colSeven", "change-colOne", "change-colTwo","change-colThree", "change-colFour", "change-colSix"];
+    const classes = ["change-colOne", "change-colTwo","change-colThree", "change-colFour"];
     // const newCols =  colors.filter(color => {
     //     return color !== "blue";
     // });
@@ -19,12 +19,12 @@ const timeInterval = () => {
 
         console.log("This can occur after one minutes");
         
-    }, 8000);
+    }, 3000);
     console.log("here were out of setTimeOut function");
 }
 timeInterval();
 
-const texts = ["Jimmy mutabazi", "John Bugingo","Kale Kayihura","Mugisha Emmy", "Higiro Evans", "John Kiramira"]
+const texts = ["Jimmy mutabazi", "John Bugingo","Kale Kayihura", "John Kiramira"]
 const chengeText = () => {
     const chengedText = texts[Math.floor(Math.random() * (texts.length))]
     const newText = document.getElementById('demo');

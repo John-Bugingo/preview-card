@@ -4,47 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./learn.css">
     <title>Learn javascript</title>
 </head>
 
-<body>
-    <nav>
-        <a class="set-time" href="index.html">Home</a>
-        <a class="set-time test-a1" href="foam.html">Registration_form</a><br>
-        <a class="set-time" href="learn.html">Learn More</a>
-        <a class="set-time" href="javascript.html"> Learn JS</a>
-        <a class="set-time" href="signup.html">Sign Up</a>
-        <a class="set-time" href="calculator.html">Calculator</a>
-    </nav>
-    <div style="padding: 18px 97px;">
-        <h1> This is a good platform that can help you</h1>
-        <p id="yourName"> Be prepare to chech if you have been selected to learn JS</p>
-        <ol id="namesList">
-            <li>Jimmy Mugabo</li>
-            <li>James Mugarura</li>
-        </ol>
+<body>  
+   
+    <h1> This is a good platform that can help you</h1>
+    <p id="yourName"> Be prepare to chech if you have been selected to learn JS</p>
+    <ol id="namesList">
+        <li>Jimmy Mugabo</li>
+        <li>James Mugarura</li>
+    </ol>
 
-        <button id="addnew" onclick="return getForm()">Add New</button>
-        <form id="form" style="display: none;">
-            <input id="inputdata" type="text" required>
-            <button>Save</button>
-            <p id="paragraph"></p>
-        </form>
 
-    </div>
+
+    <button id="addnew" onclick="return getForm()">Add New</button>
+    <form id="form" style="display: none;">
+        <input id="inputdata" type="text" required >
+        <button>Save</button>
+        <p id="paragraph"></p>
+    </form>
+    
 
     <script>
-        const pr = document.getElementById('inputdata').addEventListener('input', () => {
+        const pr = document.getElementById('inputdata').addEventListener('input', ()=>{
             const paragr = document.getElementById('inputdata').value
             const mn = document.getElementById('paragraph')
             mn.textContent = paragr;
         })
 
 
-        const dataInput = document.getElementById('inputdata').addEventListener('change', () => {
-            document.getElementById('form').addEventListener('submit', (event) => 
-            event.preventDefault())
+        const dataInput = document.getElementById('inputdata').addEventListener('change', ()=> {
+            document.getElementById('form').addEventListener('submit', (event)=> event.preventDefault())
             const data = document.getElementById('inputdata').value
             const newLi = document.createElement('li')
             newLi.textContent = data;
@@ -57,13 +48,13 @@
         //     const newLi = document.createElement('li')
         //     newLi.textContent = data;
         //     document.getElementById('namesList').append(newLi)
-        //   }
+    //   }
 
 
 
-        function getForm() {
-            document.getElementById('form').style = "display:block";
-            document.getElementById('addnew').style = "display:none";
+        function getForm(){
+            document.getElementById('form').style="display:block";
+            document.getElementById('addnew').style="display:none";
         }
 
 
@@ -90,5 +81,4 @@
     <script src="./set_time.js"></script>
     <script src="./signup.js"></script>
 </body>
-
 </html>

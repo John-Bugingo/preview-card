@@ -22,7 +22,7 @@ function checkInput() {
             firstName.style.borderColor ='rgba(56, 53, 53, 0.371)';
         }, 4000);
     }else{
-        firstName.style = 'border: 2px solid green';
+        firstName.style ='border: 2px solid green';
     }
 
 if(lastNamevalue === '' || !lastNamevalue ){
@@ -48,6 +48,10 @@ if( passwordvalue === '' || ! passwordvalue){
     password.style = 'border: 2px solid green';
 }
 
+
+
+
+
 if(emailvalue ==='' || !emailvalue){
     document.getElementById('emailError').style.display = 'block';
     email.style.borderColor = 'red';
@@ -56,9 +60,12 @@ if(emailvalue ==='' || !emailvalue){
         email.style.borderColor = 'black';
     }, 4000);
 }else{
-    email.style = 'border: 2px solid green';
+    email.style.borderColor = 'green';
 }
 }
+
+
+
     
 // button.addEventListener('success', (input)=>{
 //         const result = input.

@@ -28,14 +28,8 @@
 .change-colFour{
     color: green;
 }
-.change-colSix{
-    color: cyan;
-}
 .change-colFive{
-    color: rgb(203, 40, 94)
-}
-.change-colSeven{
-    color: white
+    color: rgb(40, 160, 203)
 }
 .two-column, .div2{
     display: flex;
@@ -104,7 +98,7 @@ nav a{
 
 nav a:hover{
    color: white;
-   font-size: 20px;
+   font-size: large;
    text-transform: capitalize;
 
 }
@@ -307,22 +301,21 @@ nav a:hover{
 
 
 .container6{
-    background-color: rgb(66, 66, 76);
-    width: 480px;
+    background-color: blue;
+    width: 300px;
     height: 100px;
     position: absolute;
-    top: 320px;
-    border-radius: 18px;
+    top: 280px;
     
 }
-/* .div-button{
+.div-button{
     background-color: blue;
     margin: 10px;
     width: auto;
     height: auto;
     border-radius: 8px;
-} */
-/* .div-button button{
+}
+.div-button button{
     margin: 11px;
     background-color: black;
     color: white;
@@ -336,7 +329,7 @@ nav a:hover{
     color: black;
     font-size: 22px;
     padding: 7px;
-} */
+}
 
 
 
@@ -359,15 +352,6 @@ nav a:hover{
     height: 365px;
     padding: 25px;
 }
-.calculator form .display{
-    display: flex;
-    justify-content: center;
-}
-.calculator form .display input{
-    padding: 5px 25px;
-    text-align: right;
-    flex: 1;
-}
 .calculator form input{
     width: 45px;
     height: 45px;
@@ -378,19 +362,17 @@ nav a:hover{
     font-size: 20px;
     background: transparent;
     background-color:cornsilk;
-    
 }
 .he{
     color: white;
     font-size: 30px;
 }
 .calculator form .display input{
-    width: 150px;
+    width: 220px;
     background: transparent;
     background-color: black;
     color: white;
-    cursor: pointer;
-    box-shadow: -8px -8px 15px rgb(26, 25, 25), 5px 5px 15px rgb(127, 127, 131);
+    box-shadow: -8px -8px 75px rgb(26, 25, 25), 5px 5px 15px rgb(127, 127, 131);
 
 }
 .calculator form .equal-reset input{
